@@ -8,8 +8,8 @@ function displaytime (){
     let hh =  D.getHours();
     let mm =  D.getMinutes();
     let ss =  D.getSeconds();
-
-   hrs.style.transform = `rotate(${hh * 30}deg)`
+    
+   hrs.style.transform = `rotate(${hh * 15 }deg)`
    min.style.transform = `rotate(${mm * 6}deg)`
    sec.style.transform = `rotate(${ss * 6}deg)`
 }
@@ -17,5 +17,3 @@ function displaytime (){
 
 
 setInterval(displaytime,1000)
-
-localStorage()
