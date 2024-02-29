@@ -8,8 +8,9 @@ function displaytime (){
     let hh =  D.getHours();
     let mm =  D.getMinutes();
     let ss =  D.getSeconds();
-    
-   hrs.style.transform = `rotate(${hh * 15 }deg)`
+    // console.log(hh,mm,ss);
+   
+   hrs.style.transform = `rotate(${hh * 30}deg)`
    min.style.transform = `rotate(${mm * 6}deg)`
    sec.style.transform = `rotate(${ss * 6}deg)`
 }
